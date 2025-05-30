@@ -6,7 +6,7 @@ public class BankAccountMain {
 
         Thread reader = new Thread(() -> {
             for (int i = 0; i < 3; i++) {
-                account.getBalance();
+                unt.getBalance();
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
